@@ -1,0 +1,5 @@
+
+Dokumentasi Aplikasi Prediksi Prodi
+
+Aplikasi ini adalah program GUI sederhana berbasis Python Tkinter yang berfungsi sebagai formulir input 10 nilai mata pelajaran dan simulasi prediksi program studi. Untuk menjalankannya, Anda cukup menyimpan kode ke dalam file app.py, lalu buka terminal atau CMD di folder tersebut dan ketik perintah python app.py.
+Secara teknis, program ini bekerja dengan membuat jendela utama bernama Jokowi menggunakan perintah tk.Tk(). Agar kode lebih efisien, program menggunakan perulangan for untuk membuat 10 baris kolom input nilai secara otomatis di dalam wadah Frame yang responsif. Ketika pengguna mengklik tombol "Hasil Prediksi", program akan memicu fungsi prediksi() yang otomatis mengubah teks label di bagian bawah menjadi "Hasil Prediksi: Teknologi Informasi". Seluruh proses visual ini dijaga agar tetap berjalan aktif di layar berkat perintah mainloop() di akhir kode.
